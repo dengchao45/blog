@@ -23,6 +23,7 @@ set :nginx_server_name, "dcaidx.xin"
 
 set :rvm_ruby_version, '2.3.1'
 set :rvm_ruby_version, '2.3.1@rails502'
+set :keep_releases, 5
 
 
 # Custom SSH Options
