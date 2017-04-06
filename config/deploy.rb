@@ -2,7 +2,7 @@
 lock '3.3.5'
 
 set :application, 'blog'
-set :repo_url, "https://github.com/dengchao45/blog.git"
+set :repo_url, "git@github.com:dengchao45/blog.git"
 
 set :deploy_to, '/home/pinee/www/blog'
 set :scm, :git
