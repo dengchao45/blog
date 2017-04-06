@@ -24,6 +24,14 @@ group :development do
 
   gem 'pry', "~> 0.9.12"
   gem 'pry-nav', "~> 0.2.3"
+
+  gem 'capistrano', '~> 3.3.0'
+  gem 'capistrano-rvm'
+  gem 'capistrano-rails-console'
+  gem 'capistrano-bundler', '~> 1.1.2'
+  gem 'capistrano-rails', '~> 1.1'
+  gem 'capistrano3-puma', require: false
+  gem 'capistrano-sidekiq'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
