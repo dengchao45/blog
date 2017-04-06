@@ -22,6 +22,7 @@ set :rails_env, "production"
 set :nginx_server_name, "dcaidx.xin"
 
 set :rvm_ruby_version, '2.3.1'
+set :rvm_ruby_version, '2.3.1@rails500'
 
 
 # Custom SSH Options
