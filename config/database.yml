@@ -8,8 +8,8 @@ default: &default
 development:
   <<: *default
   database: onlinepay_psp
-  username: dengchao
-  password: 19681009
+  username: postgres
+  password: oss
 
 production:
   <<: *default
